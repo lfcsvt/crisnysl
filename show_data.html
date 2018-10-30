@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>Feedback Sent</title>
+ <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="newpage.css">
+
+</head>
+<body>
+<div class="data-body">
+    <div class="wraper">
+              <div class="animation"><img src="ball.png" alt="" style="width: 50px"></div>
+               <navbar>
+                  <div class="menu">
+                   <ul>
+                        <li><a href="index.html" class="fa fa-home"></a></li>
+                        <li><a href="test5.html" class="fa fa-info-circle"></a></li>
+                        <li><a href="test4.html" class="fa fa-phone"></a></li>
+                        <li><a href="test3.html" class="fa fa-calendar"></a></li>
+                        <li><a href="test2.html" class="fa fa-gavel"></a></li>
+                        <li><a href="test.html" class="fa fa-sign-in"></a></li>
+                   </ul>
+                   </div> 
+                   <div class="logo">
+                      <img src="nysl_logo.png" alt="Northside League logo">
+
+                   </div>
+
+                   <div class="header">
+                       <h3>NORTHSIDE YOUTH SOCCER LEAGUE</h3>
+                   </div>       
+
+            </navbar>
+        </div>
+    <div class="data-page">
+        <p align=center>&nbsp;</p>
+        <h1 align=center style="color: white"><font size="+1">The following information has been sent as your
+          feedback:</font></h1>
+
+    <table border="1" align=center width="226">
+      <tr>
+        <th align="center">Form Field</th>
+        <th align="center">Field Value</th>
+      </tr>
+
+    <script language="javascript">
+    var args = location.search.substr(1).split('&');
+    for (var i = 0; i < args.length; ++i) {
+      var parts = args[i].split('=');
+      if (parts != null) {
+        var field = parts[0];
+        var value = parts[1];
+        if (value == null) {
+          value = "null"
+        }
+        else {
+          value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+        }
+
+        document.writeln('<tr><td align="center">' + field + '</td>');
+        document.writeln('<td align="center">' + value + '</td></tr>');
+      }
+    }
+    </script>
+
+    <noscript>
+    <tr><td>
+    <p>You need to turn on Javascript in your browser.</p>
+
+    <p>In Microsoft Internet Explorer 4 or greater:</p>
+    <ul>
+    <li>From the "Tools" menu (in IE 4, it's the "View" menu), select "Internet Options".</li>
+    <li>Click on the "Security" tab.</li>
+    <li>Click on the "Custom Level" button. (In IE 4, select "Custom"
+    and then click on "Settings...".)</li>
+    <li>Under "Active scripting" make sure "Enable" is selected.</li>
+    </ul>
+
+    <p>In Netscape version 4 or greater:</p>
+    <ul>
+    <li>From the <b>Edit</b> menu, select <b>Preferences</b>.</li>
+    <li>In the <b>Category</b> list on the left, click on the word "Advanced".</li>
+    <li>In the panel on the right, make sure "Enable JavaScript" is checked.</li>
+    <li>Click the <b>OK</b> button.</li>
+    </ul>
+
+    </td></tr>
+    </noscript>
+
+    </table>
+    </div>
+</div>
+<footer>
+      <h4>FOLLOW US ON</h4>
+       <ul>
+           <li><a href="#" class="fa fa-facebook"></a></li>
+           <li><a href="#" class="fa fa-twitter"></a></li>
+            <li><a href="#" class="fa fa-instagram"></a></li>
+           <li><a href="#" class="fa fa-envelope"></a></li>
+       </ul>
+   </footer>
+</body>
+</html>

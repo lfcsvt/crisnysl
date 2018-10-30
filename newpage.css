@@ -1,0 +1,605 @@
+body {
+    background-image: url(grass2.jpg);
+    background-size: cover;
+}
+
+.wraper {
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    background-image: url("chicago3.jpg");
+    background-size: contain;
+    background-repeat: round;
+    padding-top: 15px;
+}
+
+navbar {
+
+    position: fixed;
+    background-image: url("grass2.jpg");
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    height: 60px;
+    top: 0px;
+
+}
+
+footer {
+    position: fixed;
+    background-image: url("grass2.jpg");
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    padding-left: 15px;
+    color: white;
+}
+
+.menu {
+    border: 1px black;
+    flex: 1;
+    order: 3;
+    margin-top: 5px;
+}
+
+.menu a {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+li {
+    display: inline-block;
+
+}
+
+
+.logo {
+    flex: 1;
+    width: 50px;
+    height: 60px;
+    order: 0;
+    margin: 5px;
+
+
+
+}
+
+.logo img {
+
+    width: 50px;
+    height: 50px;
+}
+
+.header {
+    flex: 1;
+    justify-content: center;
+    color: white;
+}
+
+.container {
+    background-image: ;
+    display: flex;
+    height: 70%;
+    margin-top: 240px;
+    width: 55%;
+    height:550px;
+    bottom: 20px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 10px;
+    left: 20px;
+
+    overflow: auto;
+}
+
+
+.content {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)), url(game1.jpg);
+    color: white;
+    width: 55%;
+    height:550px;
+    overflow: auto;
+    padding: 25px;
+    background-size: cover;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    bottom: 40px;
+
+}
+
+.content-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+
+.first-item{
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+.content-picture {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.5));
+    position: absolute;
+    right: 20px;
+    width: 55%;
+    height:550px;
+    margin: 20px;
+    overflow: auto;
+    display: flex;
+    padding: 30px;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+
+.content-picture img {
+    height: 300px;
+    width: 300px;
+
+
+}
+
+.venue-theatre {
+    margin-bottom: 66px;
+}
+
+.venue-hotel {
+    margin-bottom: 22px;
+}
+
+.venue-map {
+    height: 264px;
+}
+
+
+
+footer .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    bottom: 25px;
+    display: flex;
+
+}
+
+.social {}
+
+.info {
+    justify-content: space-between;
+}
+
+navbar .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    bottom: 25px;
+
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+    color: #233C50;
+}
+
+.fa-facebook {
+    color: white;
+
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+
+}
+
+.fa-envelope {
+    color: white;
+
+}
+.main-container {
+        
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: 70%;
+        margin-top: 240px; 
+        width: 55%;
+        bottom: 20px;
+        width: 100%;
+        background-size: cover;
+        border-radius: 10px;
+        left: 20px;
+    }
+    
+    .games-content {
+        
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)), url(game1.jpg);
+    color: white;
+    width: 55%;
+    overflow: auto;
+    padding: 25px;
+    background-size: cover;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    bottom: 40px;
+    height: 450px; 
+    }
+.games-content a {
+    color: chartreuse
+}
+    .map-content {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)), url();
+    color: white;
+    width: 30%;
+    overflow: auto;
+    padding: 25px;
+    background-size: cover;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    bottom: 40px;
+    height: 450px;
+    }
+
+.animation {
+    width: 50px;
+    height: 50px;
+    background-color:;
+    position: absolute;
+    bottom: 0px;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction: linear;
+}
+
+.amination img {
+    margin: 20px;
+    
+}
+
+@keyframes example {
+    0%   {left:-0px; top:140px;}
+    20%  {left:100px; top:0px;}
+    30%  {left:200px; top:140px;}
+    40% {left:300px; top:0px;}
+    50% {left:400px; top:140px;}
+    60%  {left:500px; top:0px;}
+    70%  {left:600px; top:140px;}
+    80%  {left:800px; top:0px;}
+    90% {left:1000px; top:140px;}
+    100% {left:1400px; top:0px;}
+    
+    100%  {left:1400px; top:0px;}
+/*
+    20%  {left:150px; top:30px;}
+    30%  {left:200px; top:40px;}
+    40% {left:250px; top:50px;}
+    50% {left:300px; top:60px;}
+    60%  {left:400px; top:70px;}
+    70%  {left:1100px; top:80px;}
+    80%  {left:1200px; top:90px;}
+    90% {left:1300px; top:100px;}
+    100% {left:1400px; top:140px;}
+*/
+    
+}
+
+.grid-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)), url(coach.jpg);
+    background-size: cover;
+    margin-top: 220px;
+    margin-bottom: 90px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 800px;
+    box-sizing: border-box;
+    padding: 15px;
+    overflow: auto;
+    display: inline-grid;
+    grid-template-areas: 
+                         "header header "
+                         "contact contact"    
+    
+}
+
+.grid-image {
+   
+    height: 300px;
+    width: 700px;
+    grid-area: picture;
+}
+
+.grid-header {
+    grid-area: header;
+    color: white;
+   place-self: center;
+    
+}
+ 
+.grid-contact {
+    grid-area: contact;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.grid-contact a {
+    margin-bottom: 15px;
+    margin-left: 15px;
+    color: white;
+}
+
+.grid-comment {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.grid-coment-item1{
+    margin-right: 60px;
+}
+.grid-coment-item2{
+    
+}
+
+.grid-phone {
+    display: flex;
+    justify-content: space-between;
+}
+.grid-phone-item1 {
+    color: white;
+}
+
+ h1, h2, h3, h4, h5, p {
+    color: white;
+    margin: 10px;
+}
+
+
+fieldset {
+   
+
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+.grid-email {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.grid-email-item {
+   color: white;
+}
+
+.grid-address {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.grid-address-item {
+   color: white;
+}    
+}
+.fa-phone {
+    margin-bottom: 15px;
+    color: white;
+}
+.fa-at {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.fa-globe {
+    margin-bottom: 15px;
+    color: white;
+}
+.fa-comment {
+    margin-bottom: 75px;
+    color: white;
+}
+
+ .about-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.5));
+    margin-top: 220px;
+    margin-bottom: 90px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 800px;
+    height: 500px;
+    box-sizing: border-box;
+    padding: 15px;
+    overflow: auto;
+   
+        
+
+}
+
+
+.item {
+   
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    
+   
+}
+
+.item img {
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    margin-right: 25px;
+}
+
+.item-image {
+    
+}
+
+.item-content {
+    color: white;
+    flex: 1;
+}    
+.index-container {
+    background-size: cover;
+    margin-top: 240px;
+    margin-left: 60px;
+    height: 500px;
+    width: 1300px;
+    color:  white;
+    display: inline-grid;
+    grid-template-columns: 130px 130px 130px 130px 130px 130px 130px 130px 130px 130px 130px ;
+    grid-template-rows: 100px 50px 50px 100px 100px 100px;
+    
+}
+
+.index-content {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)), url(chicago2.jpg);
+    grid-column: 8/11;
+    grid-row: 1/6;
+    border-radius: 5px;
+    
+}
+
+.index-content2 {
+    grid-column: 7/8;
+    grid-row: 1/6;
+    
+    
+}
+
+.index-content3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)), url();
+    grid-row: 4/6;
+    grid-column: 1/7;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.idx-content1 {
+    width: 150px;
+    height: 115px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.index-content4 { 
+    grid-column: 1/7;
+    grid-row: 1/4;
+    overflow: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 60px;
+    max-width: 780px;
+    max-height: 400px;
+    border-radius: 5px;
+}
+.index-content4 img {
+    width: 120px;
+    height: 120px;
+}
+.match-image {
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6));
+    margin: 5px;
+}
+.zoom {
+    padding: 5px;
+    transition: transform .2s;
+    width: 200px;
+    height:200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+    transform: scale(1.5);}
+    .data-body{
+        background-color: aliceblue;
+        color: white;
+        margin: auto;
+        margin-top: 220px;
+        margin-bottom: 80px;
+        width: 900px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: multiply;
+        display: flex;
+        justify-content: space-around;
+        border-radius: 20px;
+
+      
+    }
+    
+
+
+
+    
+    .data-page {
+         background-image:  linear-gradient(rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)), url(bicicleta.jpg);
+        background-size: cover;
+        width: 595px;
+        height: 842px;
+        margin: auto;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        overflow: auto;
+        border-radius: 20px;
+        
+    }
+    
+   .data-page table {
+        color: white;
+    }
+
+.match-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6));
+    position: absolute;
+    top: 235px;
+    left: 80px;
+    border-radius: 10px;
+    padding: 5px;
+
+}
